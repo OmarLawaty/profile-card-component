@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: url("/images/bg-pattern-top.svg") right 52vw bottom 33vh  no-repeat,
+    hsl(185, 75%, 39%) url("/images/bg-pattern-bottom.svg") left 50vw top 40vh no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: url("/images/bg-pattern-card.svg") no-repeat, white;
+  height: 18em;
+  width: 21.5em;
+  padding-top: 85px;
+  border-radius: 4%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile-picture {
+  border-radius: 100%;
+  border: 5px solid white;
+}
+
+.profile-info {
+  font: size 18px;
+  font-family: "Kumbh Sans", sans-serif;
+  margin-top: 15px;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.age {
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+}
+
+.address {
+  display: block;
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+.top-border {
+  border-top: 2px solid hsl(0, 0%, 59%);
+  opacity: 20%;
+}
+
+.social-media-status {
+  padding: 20px 40px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stats {
+  font-weight: 700;
+}
+
+.stats-name {
+  display: block;
+  font-weight: 300;
+  font-size: 13px;
+  color: hsl(0, 0%, 59%);
+}
