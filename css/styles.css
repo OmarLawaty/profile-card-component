@@ -1,12 +1,12 @@
 body {
+  padding: 0;
+  margin: 0;
   width: 100vw;
   height: 100vh;
-  background: url("/images/bg-pattern-top.svg") right 51.5vw bottom 35vh
-      no-repeat,
-    hsl(185, 75%, 39%) url("/images/bg-pattern-bottom.svg") left 49vw top 53vh
-      no-repeat;
+  background: url('/images/bg-pattern-top.svg') right 51.5vw bottom 35vh no-repeat,
+    hsl(185, 75%, 39%) url('/images/bg-pattern-bottom.svg') left 49vw top 53vh no-repeat;
   text-align: center;
-  font: 400 18px/1.5 "Kumbh Sans", sans-serif;
+  font: 400 18px/1.5 'Kumbh Sans', sans-serif;
   /* overflow: hidden; */
 }
 
@@ -33,7 +33,7 @@ main {
 
 .card header {
   height: 40%;
-  background: url("/images/bg-pattern-card.svg") no-repeat;
+  background: url('/images/bg-pattern-card.svg') no-repeat;
   border-radius: var(--card-radius) var(--card-radius) 0 0;
 }
 
